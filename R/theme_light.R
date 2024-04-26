@@ -2,7 +2,7 @@
 #'
 #' This ggplot theme has a white background and should be used
 #' with the standard colour set from this package (InnoColours() or
-#' InnoColours(set=="standard"))
+#' InnoColours(set="standard"))
 #' ** Warning ** calling this theme will adjust the default settings for
 #' all geom colour and fill values. To reset this you need to restart your R
 #' session and reload the ggplot2 (or tidyverse) package.
