@@ -28,9 +28,9 @@ theme_InnoDark <- function() {
   replace_geom_aes_defaults("fill", "#3366FF", "#4182B6")
 
 
-  theme_classic() %+replace%
+  ggplot2::theme_classic() %+replace%
 
-    theme(
+    ggplot2::theme(
 
       axis.line = element_line(colour="#EFEFE1"),
       legend.box.background = element_blank(),

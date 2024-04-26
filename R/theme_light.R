@@ -29,9 +29,9 @@ theme_InnoLight <- function() {
   replace_geom_aes_defaults("fill", "grey50", "#4F4F4F")
   replace_geom_aes_defaults("fill", "#3366FF", "#57ACF2")
 
-  theme_classic() %+replace%
+  ggplot2::theme_classic() %+replace%
 
-    theme(
+    ggplot2::theme(
       axis.line = element_line(colour="#4F4F4F"),
       axis.ticks = element_line(colour="#4F4F4F"),
       text = element_text(colour="#4F4F4F"),

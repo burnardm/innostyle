@@ -7,17 +7,17 @@ require("purrr")
 
 replace_geom_aes_defaults <- function(name, old_aes, new_aes) {
   matching_geoms <-
-    map(geom_aes_defaults(), name) %>%
-    compact() %>%
-    keep(~ !is.na(.) & . == old_aes)
+    purrr::map(geom_aes_defaults(), name) %>%
+    purrr::compact() %>%
+    purrr::keep(~ !is.na(.) & . == old_aes)
   geoms <- gsub("^Geom(.*)", "\\1", names(matching_geoms))
-  walk(geoms, update_geom_defaults, setNames(list(new_aes), name))
+  purrr::walk(geoms, update_geom_defaults, setNames(list(new_aes), name))
 }
 
 geom_aes_defaults <- function() {
   geom_names <- apropos("^Geom", ignore.case = FALSE)
   geoms <- mget(geom_names, env = asNamespace("ggplot2"))
-  map(geoms, ~ .$default_aes)
+  purrr::map(geoms, ~ .$default_aes)
 }
 
 #geom_aes_defaults()
