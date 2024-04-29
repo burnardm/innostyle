@@ -26,6 +26,7 @@ theme_InnoDark <- function() {
   replace_geom_aes_defaults("fill", "grey35", "#EFEFE1")
   replace_geom_aes_defaults("fill", "grey50", "#EFEFE1")
   replace_geom_aes_defaults("fill", "grey60", "#EFEFE1")
+  replace_geom_aes_defaults("fill", "white", "#FEFEF1")
   replace_geom_aes_defaults("fill", "#3366FF", "#4182B6")
   update_geom_defaults("smooth", aes(alpha=0.2))
 

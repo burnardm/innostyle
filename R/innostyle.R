@@ -20,4 +20,4 @@ geom_aes_defaults <- function() {
   purrr::map(geoms, ~ .$default_aes)
 }
 
-geom_aes_defaults()
+#geom_aes_defaults()

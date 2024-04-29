@@ -27,6 +27,7 @@ theme_InnoBeige <- function() {
   replace_geom_aes_defaults("fill", "grey35", "#4F4F4F")
   replace_geom_aes_defaults("fill", "grey50", "#4F4F4F")
   replace_geom_aes_defaults("fill", "grey60", "#4F4F4F")
+  replace_geom_aes_defaults("fill", "white", "#FEFEF1")
   replace_geom_aes_defaults("fill", "#3366FF", "#4182B6")
 
   ggplot2::theme_classic() %+replace%
