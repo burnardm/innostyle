@@ -28,7 +28,7 @@ theme_InnoDark <- function() {
   replace_geom_aes_defaults("fill", "grey60", "#EFEFE1")
   replace_geom_aes_defaults("fill", "white", "#FEFEF1")
   replace_geom_aes_defaults("fill", "#3366FF", "#4182B6")
-  update_geom_defaults("smooth", aes(alpha=0.2))
+  update_geom_defaults("smooth", aes(alpha=0.2, fill="#FEFEF1"))
 
   ggplot2::theme_classic() %+replace%
 
