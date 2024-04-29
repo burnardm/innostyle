@@ -15,18 +15,18 @@ theme_InnoDark <- function() {
   title_font <- "sans"
   font <- "sans"
 
-  ggplot2::replace_geom_aes_defaults("colour", "black", "#EFEFE1")
-  ggplot2::replace_geom_aes_defaults("colour", "grey20", "#EFEFE1")
-  ggplot2::replace_geom_aes_defaults("colour", "grey35", "#EFEFE1")
-  ggplot2::replace_geom_aes_defaults("colour", "grey50", "#EFEFE1")
-  ggplot2::replace_geom_aes_defaults("colour", "#3366FF", "#4182B6")
+  replace_geom_aes_defaults("colour", "black", "#EFEFE1")
+  replace_geom_aes_defaults("colour", "grey20", "#EFEFE1")
+  replace_geom_aes_defaults("colour", "grey35", "#EFEFE1")
+  replace_geom_aes_defaults("colour", "grey50", "#EFEFE1")
+  replace_geom_aes_defaults("colour", "#3366FF", "#4182B6")
 
-  ggplot2::replace_geom_aes_defaults("fill", "black", "#EFEFE1")
-  ggplot2::replace_geom_aes_defaults("fill", "grey20", "#EFEFE1")
-  ggplot2::replace_geom_aes_defaults("fill", "grey35", "#EFEFE1")
-  ggplot2::replace_geom_aes_defaults("fill", "grey50", "#EFEFE1")
-  ggplot2::replace_geom_aes_defaults("fill", "grey60", "#EFEFE1")
-  ggplot2::replace_geom_aes_defaults("fill", "#3366FF", "#4182B6")
+  replace_geom_aes_defaults("fill", "black", "#EFEFE1")
+  replace_geom_aes_defaults("fill", "grey20", "#EFEFE1")
+  replace_geom_aes_defaults("fill", "grey35", "#EFEFE1")
+  replace_geom_aes_defaults("fill", "grey50", "#EFEFE1")
+  replace_geom_aes_defaults("fill", "grey60", "#EFEFE1")
+  replace_geom_aes_defaults("fill", "#3366FF", "#4182B6")
 
 
   ggplot2::theme_classic() %+replace%
