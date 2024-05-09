@@ -24,7 +24,13 @@ InnoColours <- function(set="standard") {
                     "#B54146",
                     "#4182B6",
                     "#40B4AE",
-                    "#80B641")
+                    "#80B641",
+                    "#C35DCF",
+                    "#CF5E44",
+                    "#4C6BCF",
+                    "#43D178",
+                    "#D1CB1F"
+                    )
         set = stringr::str_to_lower(set)
         if(set %notin% c("standard", "bright", NULL)) {
           message("Defined set not available. Returning the default set.")
