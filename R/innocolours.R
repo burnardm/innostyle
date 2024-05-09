@@ -41,7 +41,12 @@ InnoColours <- function(set="standard") {
                       "#F2575F",
                       "#57ACF2",
                       "#57F2EA",
-                      "#AAF257")
+                      "#AAF257",
+                      "#EDA240",
+                      "#1515E8",
+                      "#63DB83",
+                      "#DED8A8",
+                      "#D4197A")
           return(palette)
         }
         return(palette)
