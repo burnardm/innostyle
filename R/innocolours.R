@@ -1,7 +1,8 @@
 #' InnoColours()
 #'
 #' This function returns one of two versions of the InnoRenew colour palette
-#' for creating figures (it does not include grey or beige)
+#' for creating figures (it does not include grey or beige). There are
+#' 10 colours in each set, though it is not recommended to go beyond 5.
 #' @param set defaults to "standard", "bright" returns a lighter tint
 #' suitable for dark backgrounds
 #' @keywords colour, color, colourblindness, palette

@@ -1,7 +1,7 @@
 Package: innostyle
 Type: Package
 Title: InnoRenew CoE colour palettes and ggplot themes
-Version: 0.1.1
+Version: 0.1.2
 Author: Mike b.
 Maintainer: Mike b. <mike.burnard@innorenew.eu>
 Description: This package comes with 3 themes and 2 colour palettes.
@@ -13,7 +13,8 @@ Description: This package comes with 3 themes and 2 colour palettes.
     than 5 colours, consider using some other method of organising or
     differentiating your data.
     Calling InnoColours(set="bright") returns the colours in a
-    brighter tint which is more suitable for the theme_innoDark(). See associated
+    brighter tint which is more suitable for the theme_innoDark(), 5 additional
+    bright colours are also included. See associated
     help file for use details.
 License: CC-Universal 1.0
 Encoding: UTF-8
